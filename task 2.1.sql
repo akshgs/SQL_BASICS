@@ -1,0 +1,1 @@
+select * from salesman where Commission  >0.12 And Commission < 0.14;

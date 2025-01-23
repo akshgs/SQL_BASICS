@@ -1,0 +1,11 @@
+create database custmor;
+use custmors;
+create table custmor_info(id integer,first_name varchar(25),last_name varchar(10));
+show tables;
+select * from custmor_info;
+insert into custmor_info(id,first_name,last_name) values(1,'Akash','gs');
+insert into custmor_info(id,first_name,last_name) values(2,'Anooj','tk');
+drop table custmor_info;
+show tables;
+drop database custmor;
+show databases;
